@@ -12,4 +12,4 @@ MAT 1234	          |   Calculus I
 | Course Number  | Course Name |
 | ------------- | ------------- |
 | CSC 2330  | Data Structures and Programming  |
-| MAT 1234  | Calculus I  |
+| MAT 1234  | Calculus I  | 
