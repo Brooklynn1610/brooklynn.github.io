@@ -1,14 +1,49 @@
-This is a paragraph describing the way I like to code. I code in the morning, I code in the afternoon, but I like to code more at night. The werewolves don't come at night when I code; my superpower grows, and as Naruto helps me, my code becomes powerful like a lightsaber. Gundam robots come out of my code as I solve the mysteries of algorithms, dungeons, and dragons.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binh Truong | Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
 
-This is a table with the heading 2
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Binh Truong</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="css-design.html">Design Logic</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-Course Number	      |            Course Name
+<header class="hero-section text-center py-5">
+    <div class="container py-5">
+        <img src="profile-pic.jpg" alt="Binh Truong" class="profile-img shadow mb-4">
+        <h1 class="display-4 fw-bold">Hi, I'm Binh Truong</h1>
+        <p class="lead text-muted">Computer Science Student at Seattle Pacific University</p>
+        <a href="projects.html" class="btn btn-primary btn-lg mt-3">View My Work</a>
+    </div>
+</header>
 
-CSC 2330	              |       Data Structures and Programming
+<section class="container my-5">
+    <h2 class="text-center mb-4">Core Technologies</h2>
+    <div class="row text-center g-4">
+        <div class="col-md-3"><div class="p-3 border rounded bg-light"><strong>Languages:</strong> C++, Python, Java</div></div>
+        <div class="col-md-3"><div class="p-3 border rounded bg-light"><strong>Data & ML:</strong> R, YOLOv5, AzureML</div></div>
+        <div class="col-md-3"><div class="p-3 border rounded bg-light"><strong>Web Dev:</strong> HTML, CSS, JavaScript</div></div>
+        <div class="col-md-3"><div class="p-3 border rounded bg-light"><strong>Tools:</strong> SQL Server, Git, XCode</div></div>
+    </div>
+</section>
 
-MAT 1234	          |   Calculus I
- 
-| Course Number  | Course Name |
-| ------------- | ------------- |
-| CSC 2330  | Data Structures and Programming  |
-| MAT 1234  | Calculus I  |
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
